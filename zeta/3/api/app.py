@@ -132,4 +132,4 @@ if __name__ == '__main__':
         connect_to_redis()
     except Exception as e:
         logging.error(str(e))
-    app.run()
+    app.run(host="0.0.0.0")

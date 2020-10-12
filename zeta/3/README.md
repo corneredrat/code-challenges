@@ -28,3 +28,8 @@ curl -X POST localhost:5000/add_word/word=exam
 ```
 curl localhost:5000/autocomplete/query=fo
 ```
+
+### clean up 
+```
+sudo docker rm -f autocomplete
+```
