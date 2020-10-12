@@ -105,9 +105,6 @@ def analyze():
     global primary_shards
     max_size = 0
     for log_ele in log_elements:
-        print("analyzing node : "+log_ele.node_name)
-        print("size ",log_ele.storage_size)
-        print("type: ",log_ele.node_type)
         # req 3
         if log_ele.storage_size > max_size:
             max_size_node_name  = log_ele.node_name
