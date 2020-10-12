@@ -1,0 +1,4 @@
+flask
+redis
+flask-swagger
+swagger_ui
