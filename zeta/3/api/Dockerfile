@@ -1,6 +1,6 @@
 from python:3.8.6
 
-COPY    api /code/api
+COPY    . /code/api
 WORKDIR /code/api
 RUN     apt-get update -y && apt-get install redis-cli -y
 
